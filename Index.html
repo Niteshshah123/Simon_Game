@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon_Game</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" type="image/jpeg" href="Image/Icon.jpeg" />
+</head>
+<body>
+
+  <div id="game-area">
+
+    <h1>Simon Game</h1>
+
+    <h3 id="level">To start the game,<br> Click Start Button</h3>
+
+    <div id="box_container" class="box">
+        <div id="line_one">
+            <div id="pink" class="btns"></div>
+            <div id="green" class="btns"></div>
+        </div>
+
+        <div id="line_two">
+            <div id="orange" class="btns"></div>
+            <div id="purple" class="btns"></div>
+        </div>
+    </div>
+    
+    <!-- From Uiverse.io by adamgiebl --> 
+    <button id="start-btn" class="cssbuttons-io-button">
+      <!-- <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+      > -->
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path
+          fill="currentColor"
+          d="M1 14.5a6.496 6.496 0 0 1 3.064-5.519 8.001 8.001 0 0 1 15.872 0 6.5 6.5 0 0 1-2.936 12L7 21c-3.356-.274-6-3.078-6-6.5zm15.848 4.487a4.5 4.5 0 0 0 2.03-8.309l-.807-.503-.12-.942a6.001 6.001 0 0 0-11.903 0l-.12.942-.805.503a4.5 4.5 0 0 0 2.029 8.309l.173.013h9.35l.173-.013zM13 12h3l-4 5-4-5h3V8h2v4z"
+        ></path>
+      </svg>
+      <span>Start Game</span>
+    </button>
+
+  </div>
+
+  
+  <div id="countdown-overlay">
+    <div id="countdown-text">3</div>
+  </div>
+
+  <Script src="Script.js"></Script>
+</body>
+</html>
